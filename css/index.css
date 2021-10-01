@@ -19,6 +19,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
+    /* border: 1px solid black;  */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,11 +50,13 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    padding: 0 3%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,6 +67,32 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+.nav-container {
+    margin: 2% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+.right nav a {
+    text-decoration: none;
+    padding: 3%;
+    
+}
+
+.left, .right{
+    display: inline-block;
+    width: 100%;
+}
+
+.head-image {
+    text-align: center;
+    margin-bottom: 4%;
 }
 
 .container {
@@ -101,7 +130,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box  {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -111,6 +140,8 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+
 
 .bottom-content {
     display: flex;
